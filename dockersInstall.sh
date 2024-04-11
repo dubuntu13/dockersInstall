@@ -77,7 +77,7 @@ fi
 echo "Now we installing docker-compose"
 
 #Download docker-compose
-sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo curl -L "https://github.com/docker/compose/releases/download/v2.26.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 if [ $? -ne 0 ]; then
     echo "Command FAILED!!!!!!!!"
     exit 1
