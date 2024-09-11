@@ -54,14 +54,14 @@ sudo curl -L "https://github.com/docker/compose/releases/download/v2.26.0/docker
 sudo chmod +x /usr/local/bin/docker-compose
 
 #################Install minikube
-curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube_latest_amd64.deb
-sudo dpkg -i minikube_latest_amd64.deb
-
-#see Version of the docker-compose
-docker_version=$(docker-compose --version)
-if [ $? -ne 0 ]; then
-    echo "Command FAILED!!!!!!!!"
-    exit 1
-else
-    echo "$docker_version"
-fi
+#curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube_latest_amd64.deb
+#sudo dpkg -i minikube_latest_amd64.deb
+#
+##see Version of the docker-compose
+#docker_version=$(docker-compose --version)
+#if [ $? -ne 0 ]; then
+#    echo "Command FAILED!!!!!!!!"
+#    exit 1
+#else
+#    echo "$docker_version"
+#fi
